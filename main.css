@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.About{
+    background-color: #272829;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    
+}
+.About p{
+    margin: 0;
+    padding: 0;
+}
+.About .heading2{
+    color: antiquewhite;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.About .p1{
+    color: antiquewhite;
+    padding-bottom: 50px;
+}
+.About profile{
+    
+}
+.profile{
+    height: 300px;
+    width: 200px;
+    border-radius: 20%;
+    margin-top: 100px;
+}
+.Projects{
+    background-color: #61677A;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+.Projects h2{
+    color: antiquewhite;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.column img{
+    height: 300px;
+    width: 200px;
+    border-radius: 20%;
+    margin-top: 100px;
+}
+.Projects h3{
+    color: #61677A;
+    padding-top: 20px;
+    padding-bottom:20px ;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    flex-basis: 40%;
+    background-color:antiquewhite;
+    border-radius: 10%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.row1 p{
+    font-size: x-large;
+    font-weight: 500;
+    font-style: normal;
+    color: #61677A;
+}
